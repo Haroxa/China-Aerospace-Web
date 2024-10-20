@@ -85,8 +85,9 @@ nav ul li a:hover:before{
 }
 .yhy{
 	background:url(../images/yhy_bj.jpg);
-	background-attachment:fixed;//固定宇航员页面背景
+	background-attachment:fixed;/*固定宇航员页面背景*/
 	background-repeat: no-repeat;
+	background-size: cover; /* 背景图片覆盖整个容器 */
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
@@ -173,8 +174,13 @@ nav ul li a:hover:before{
 	margin-bottom: 20px;
 }
 .htzs{
-	height: 520px;
-	background-color: #fff;
+	/* height: 1000px; */
+	/* background-color: #fff; */
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .htzs img{
 	width: 300px;
@@ -182,52 +188,32 @@ nav ul li a:hover:before{
 }
 .htzs .title{
 	text-align: center;
-	color: #000;
+	color: #ffffff;
 	font-size: 28px;
 	font-weight: bold;
 
 }
-.htzs .content1{
-	float: left;
-	width: 610px;
+.htzs .content{
+	background-color: #fff;
+	/* float: left; */
+	width: 900px;
 	height: 200px;
 	margin: 20px 30px;
 	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
 }
-.htzs .content2{
-	float: right;
-	width: 610px;
-	height: 200px;
-	margin: 20px 30px;
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-}
-.htzs .content3{
-	clear: both;
-	float: left;
-	width: 610px;
-	height: 200px;
-	margin: 20px 30px;
-	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-}
-.htzs .content4{
-	clear: right;
-	float: right;
-	width: 610px;
-	height: 200px;
-	margin: 20px 30px;
-	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-}
+
 .htzs .img{
 
 	float: left;
 	margin-right: 10px;
 }
 .htzs .text{
-	width: 300px;
+	width: 450px;
 	height: 200px;
 	float: right;
 	line-height: 40px;
-
+	margin-right: 80px;
+	margin-top: 10px;
 }
 .htzs .text h2{
 	margin-bottom: 10px;
