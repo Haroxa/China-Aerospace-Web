@@ -83,6 +83,19 @@ nav ul li a:hover:before{
 	height: 100%;
 	object-fit: fill;
 }
+
+/* 公共卡片样式 */
+.card {
+    background-color: rgba(57, 57, 57, 0.4); /* 透明度设置为 0.8 */
+    margin: 30px auto; /* 上下留出一定的间隔 */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(18, 17, 17, 0.234); /* 添加阴影 */
+    border-radius: 10px; /* 圆角 */
+    max-width: 850px; /* 控制卡片最大宽度 */
+}
+
+
+
 .yhy{
 	background:url(../images/yhy_bj.jpg);
 	background-attachment:fixed;/*固定宇航员页面背景*/

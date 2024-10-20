@@ -4,7 +4,7 @@
 
 附效果图:
 <img width="1438" src="./showcase/home.png">
-<img width="1438" src="./showcase/home2.png">
+<img width="1438" src="./showcase/home4.png">
 <img width="1438" src="./showcase/development.png">
 <img width="1438" src="./showcase/achievement.png">
 <img width="1438" src="./showcase/spacecraft.png">
